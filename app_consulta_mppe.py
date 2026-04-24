@@ -2,6 +2,14 @@
 import streamlit as st
 
 BASES_DADOS = {
+    "1a Entrancia": "https://portal.mppe.mp.br/documents/20121/60740/Quadro+Geral+Membros+MPPE+-+OFICIAL+-+1%C2%AA+ENTRANCIA.xlsx/314c739f-3fd2-8cda-3eb5-6cbe48b44418?version=1.0&t=1776718297075&download=true",
+    "2a Entrancia": "https://portal.mppe.mp.br/documents/20121/60740/Quadro+Geral+Membros+MPPE+-+OFICIAL+-+2%C2%AA+ENTRANCIA.xlsx/be801d59-765c-4019-2f59-577704bb4922?version=1.0&t=1776718288581&download=true",
+    "3a Entrancia": "https://portal.mppe.mp.br/documents/20121/60740/Quadro+Geral+Membros+MPPE+-+OFICIAL+-+3%C2%AA+ENTRANCIA.xlsx/8867a1b2-1234-4567-89ab-cdef12345678?version=1.0&t=1776718200000&download=true",
+    "2a Instancia": "https://portal.mppe.mp.br/documents/20121/60740/Quadro+Geral+Membros+MPPE+-+OFICIAL+-+2%C2%AA+INSTANCIA.xlsx/50ca44aa-6fac-eb40-69a4-38628db97e45?version=1.0&t=1776718266530&download=true",
+}import pandas as pd
+import streamlit as st
+
+BASES_DADOS = {
     "1a Entrancia": "https://portal.mppe.mp.br/documents/d/guest/quadro-geral-membros-mppe-oficial-1-entrancia-3?download=true",
     "2a Entrancia": "https://portal.mppe.mp.br/documents/d/guest/quadro-geral-membros-mppe-oficial-2-entrancia-1?download=true",
     "3a Entrancia": "https://portal.mppe.mp.br/documents/d/guest/quadro-geral-membros-mppe-oficial-3-entrancia-3?download=true",
